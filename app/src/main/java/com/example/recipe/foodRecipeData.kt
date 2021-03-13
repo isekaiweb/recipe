@@ -7,9 +7,9 @@ fun foodRecipeData(): List<FoodRecipe> =
         FoodRecipe(
             id = 1,
             creatorName = "Lena Abraham",
-            creatorPhoto = R.drawable.lena_abraham,
+            creatorPhoto = "https://hips.hearstapps.com/rover/profile_photos/846121db-9644-42e0-a4fd-cf5d105bfdf9_1576786748.file?fill=1:1&resize=80:*",
             foodName = "Egg Roll Bowls",
-            foodPhoto = R.drawable.egg_roll_bowls,
+            foodPhoto = "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190319-egg-roll-bowls-261-1554235668.jpg?crop=1xw:1xh;center,top&resize=768:*",
             story = "If you're a fan of crispy savory egg rolls, then you might consider this unwrapped version your dream lunch. Without the need to wrap or fry, this veggie-packed meal comes together in well under an hour. Garnish with crispy raw green onion, toasted sesame seeds, and plenty of Sriracha or chili oil.",
             ingredients = """
                     1 tbsp. vegetable oil
@@ -38,9 +38,9 @@ fun foodRecipeData(): List<FoodRecipe> =
         FoodRecipe(
             id = 2,
             creatorName = "Justin Sullivan",
-            creatorPhoto = R.drawable.justin_sullivan,
+            creatorPhoto = "https://hips.hearstapps.com/rover/profile_photos/634a0349-7e5f-4cc7-91e5-4515acddfac2_1584482216.file?fill=1:1&resize=80:*",
             foodName = "Irish Mule",
-            foodPhoto = R.drawable.irish_mule,
+            foodPhoto = "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-2021-irishmule-223-1-1615340541.jpg?crop=1.00xw:1.00xh;0,0&resize=980:*",
             story = "We at Delish have developed many Moscow Mule variations (from the blue-hued Mermaid Mule to the high-class Champagne Mule). We figured it was only a matter of time before we took the Mule on a road trip to another country. We settled on Ireland because we loved how the oaky, vanilla-y flavors that come from your favorite whiskey are so well complimented by the fresh ginger and lime. It’s the perfect slight twist on the classic that will surprise your guests and have them singing your praises (or maybe writing a limerick about you).",
             ingredients = """
                 2 oz. Irish whiskey
@@ -58,9 +58,9 @@ fun foodRecipeData(): List<FoodRecipe> =
         FoodRecipe(
             id = 3,
             creatorName = "Makinze Gore",
-            creatorPhoto = R.drawable.makinze_gore,
+            creatorPhoto = "https://hips.hearstapps.com/rover/profile_photos/634a0349-7e5f-4cc7-91e5-4515acddfac2_1584482216.file?fill=1:1&resize=80:*",
             foodName = "Air Fryer Mozzarella-Stuffed Meatballs",
-            foodPhoto = R.drawable.air_fryer_mozzarella_stuffed_meatballs,
+            foodPhoto = "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-2021-airfryermeatballs-044-1614894847.jpg?crop=0.668xw:1.00xh;0.202xw,0&resize=980:*",
             story = "For crispy-on-the-outside, tender-on-the-inside meatballs, turn to the air fryer. It will replicate the crust you get when you pan fry—without any oil. Another bonus: You aren't required to stand near a splattering stove to turn the meatballs every couple of minutes. The air fryer does the work for you and gets all sides perfectly \"seared\". These are stuffed with mozzarella for an extra-fun surprise and once coated in your favorite marinara can be a meal all on their own. These are anything but your ordinary meatball and we are here for it! ",
             ingredients = """
                     1 lb. ground beef
@@ -89,9 +89,9 @@ fun foodRecipeData(): List<FoodRecipe> =
 
         FoodRecipe(
             id = 4,
-            creatorPhoto = R.drawable.justin_sullivan,
+            creatorPhoto = "https://hips.hearstapps.com/rover/profile_photos/634a0349-7e5f-4cc7-91e5-4515acddfac2_1584482216.file?fill=1:1&resize=80:*",
             creatorName = "Justin Sullivan",
-            foodName = "Nutty Irishman", foodPhoto = R.drawable.nutty_irishman,
+            foodName = "Nutty Irishman", foodPhoto ="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-2021-nuttyirishmancocktail-082-1615338723.jpg?crop=1.00xw:1.00xh;0,0&resize=980:*",
             story = """
                 The “nutty” in the Nutty Irishman refers to hazelnut liqueur, which you might think is some super obscure ingredient, but you can usually find a bottle of the most famous brand—Frangelico—in your local liquor store. Its sweetness and subtle nuttiness  is the perfect partner to rich Irish cream. But if you can’t find it, opt for some other nut-flavored liqueur like amaretto. 
 
@@ -117,9 +117,9 @@ fun foodRecipeData(): List<FoodRecipe> =
 
 
         FoodRecipe(
-            id = 5, creatorName = "Lena Abraham", creatorPhoto = R.drawable.lena_abraham,
+            id = 5, creatorName = "Lena Abraham", creatorPhoto = "https://hips.hearstapps.com/rover/profile_photos/846121db-9644-42e0-a4fd-cf5d105bfdf9_1576786748.file?fill=1:1&resize=80:*",
             foodName = "Classic Charoset",
-            foodPhoto = R.drawable.classic_charoset,
+            foodPhoto = "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-200318-seo-charoset-horizontal-hand1-13848-eb-1585337718.jpg?crop=0.668xw:1.00xh;0.231xw,0&resize=768:*",
             story = """
             This easy charoset is the one you'll find on our Passover dinner table! Feel free to swap in your preferred nuts and dried fruit—promise we won't get offended.😄Chag Sameach!
 
@@ -141,8 +141,8 @@ fun foodRecipeData(): List<FoodRecipe> =
         FoodRecipe(
             id = 6,
             creatorName = "Lena Abraham",
-            creatorPhoto = R.drawable.lena_abraham,
-            foodPhoto = R.drawable.split_pea_soup,
+            creatorPhoto = "https://hips.hearstapps.com/rover/profile_photos/846121db-9644-42e0-a4fd-cf5d105bfdf9_1576786748.file?fill=1:1&resize=80:*",
+            foodPhoto = "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190319-split-pea-soup-138-1553791829.jpg?crop=1xw:0.9164255020608612xh;center,top&resize=980:*",
             foodName = "Split Pea Soup",
             story = """
             My Oma makes the BEST split pea soup. The secret? A good, smoky ham hock. It imparts so much delicious flavor, and if you're lucky you can get some meat off of it too. Serve with a slice of toasted sourdough and you're golden.
@@ -178,10 +178,10 @@ fun foodRecipeData(): List<FoodRecipe> =
 
         FoodRecipe(
             id = 7,
-            creatorPhoto = R.drawable.makinze_gore,
+            creatorPhoto = "https://hips.hearstapps.com/rover/profile_photos/743afec2-8cb0-4247-8722-05b4d891fe7a_1576786937.file?fill=1:1&resize=80:*",
             creatorName = "Makinze Gore",
             foodName = "Cajun Sweet Potato Tots",
-            foodPhoto = R.drawable.cajun_sweet_potato_tots,
+            foodPhoto ="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-210211-sweet-potato-tater-tots-008-ab-1614890215.jpg?crop=1.00xw:1.00xh;0,0&resize=980:*",
             story = """
                     Turns out, homemade tater tots are surprisingly easy, and these crispy bites are a fun twist on the classic. Relying on Parmesan and cornstarch to hold them together, they also happen to be gluten free. The most important step is parboiling your potatoes. It'll make them easier to shred and will also help bind them together. The results are a tot that is crispy on the outside while soft (and almost creamy) on the inside. Don't be discouraged if they take on color on each side—that is not a bad thing here! But if you feel they are getting too dark, you can turn to crisp all four sides, not just the top and bottom. 
 
@@ -217,8 +217,8 @@ fun foodRecipeData(): List<FoodRecipe> =
 
         FoodRecipe(
             id = 8,
-            creatorName = "Makinze Gore", creatorPhoto = R.drawable.makinze_gore,
-            foodName = "Best Carrot Cake", foodPhoto = R.drawable.best_carrot_cake, story = """
+            creatorName = "Makinze Gore", creatorPhoto = "https://hips.hearstapps.com/rover/profile_photos/743afec2-8cb0-4247-8722-05b4d891fe7a_1576786937.file?fill=1:1&resize=80:*",
+            foodName = "Best Carrot Cake", foodPhoto = "https://hips.hearstapps.com/del.h-cdn.co/assets/18/08/1519321610-carrot-cake-vertical.jpg?crop=1.00xw:0.834xh;0,0.0829xh&resize=768:*", story = """
             We understand that there's no short supply of carrot cake recipes in the universe, but ours is—quite simply—the best. It comes from our Deputy Editor's great-grandma and there's just no arguing with that. It will be the shining star among all your Easter Desserts this year. 
 
             Why vegetable oil?
@@ -286,8 +286,8 @@ fun foodRecipeData(): List<FoodRecipe> =
         FoodRecipe(
             id = 9,
             creatorName = "Makinze Gore",
-            creatorPhoto = R.drawable.makinze_gore,
-            foodPhoto = R.drawable.braised_lamb_shanks,
+            creatorPhoto ="https://hips.hearstapps.com/rover/profile_photos/743afec2-8cb0-4247-8722-05b4d891fe7a_1576786937.file?fill=1:1&resize=80:*",
+            foodPhoto = "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190313-braised-lamb-shanks-vertical-1-1553026902.png?crop=1.00xw:0.667xh;0,0.184xh&resize=768:*",
             foodName = "Braised Lamb Shanks",
             story = "Braising lamb shanks might sound a little intimidating, but honestly, it couldn't be easier. After a quick sear, the oven does all the work for you! Lamb shanks can tend to be a tougher cut of meat so to get tender, fall off the bone lamb, it works best to cook them low and slow. They'll braise in a savory tomato sauce that gives the meat so much flavor and the sauce becomes extra silky after the wine and butter gets stirred in. You'll have the most comforting dinner you've had all year! ",
             ingredients = """
@@ -323,9 +323,9 @@ fun foodRecipeData(): List<FoodRecipe> =
         FoodRecipe(
             id = 10,
             creatorName = "Makinze Gore",
-            creatorPhoto = R.drawable.makinze_gore,
+            creatorPhoto = "https://hips.hearstapps.com/rover/profile_photos/743afec2-8cb0-4247-8722-05b4d891fe7a_1576786937.file?fill=1:1&resize=80:*",
             foodName = "Steamed Asparagus",
-            foodPhoto = R.drawable.steamed_asparagus,
+            foodPhoto = "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190313-steamed-asparague-horizontal-1-1553026904.png?crop=0.595xw:0.893xh;0.180xw,0.0485xh&resize=768:*",
             story = "Steaming vegetables is the healthiest way to prepare them—so we finished ours with some butter, just to be safe (but you can totally skip or use some olive oil to keep things dairy free). These cook up so fast for a simple and quick side dish to complete any meal, like the Garlic Parmesan Flounder you just made. It's one of those sides for when you forget to plan a side.",
             ingredients = """
             1 lb. asparagus, ends trimmed

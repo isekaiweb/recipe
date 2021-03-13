@@ -28,7 +28,6 @@
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/img_creator"
                 style="@style/img_creator"
-                android:src="@drawable/lena_abraham"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -53,7 +52,6 @@
                 style="@style/img_food"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/food_img_size"
-                android:src="@drawable/egg_roll_bowls"
                 app:layout_constraintTop_toBottomOf="@+id/img_creator"
                 tools:layout_editor_absoluteX="20dp" />
 

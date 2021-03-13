@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.recipe.databinding.FragmentProfileBinding
+import com.example.recipe.function.glide
 
 
 class ProfileFragment : Fragment() {
@@ -30,6 +31,9 @@ class ProfileFragment : Fragment() {
 
         initNavController(view)
         initEventClick()
+
+        val srcImgProfile = "https://d17ivq9b7rppb3.cloudfront.net/small/avatar/202102240822175c7d208dcb2c122542720d48eff67631.png"
+        glide(requireContext(),srcImgProfile,binding.imgProfile)
     }
 
     private fun initEventClick() {
