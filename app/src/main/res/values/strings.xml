@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Recipe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_name_creator">Lena Abraham</string>
+    <string name="dummy_name_food">Egg Roll Bowls</string>
+    <string name="dummy_story">If you\'re a fan of crispy savory egg rolls, then you might consider this unwrapped version your dream lunch. Without the need to wrap or fry, this veggie-packed meal comes together in well under an hour. Garnish with crispy raw green onion, toasted sesame seeds, and plenty of Sriracha or chili oil.</string>
+    <string name="dummy_ingredients">  1 tbsp. vegetable oil \n
+                    1 clove garlic, minced \n
+                    1 tbsp. minced fresh ginger \n
+                    1 lb. ground pork \n
+                    1 tbsp. sesame oil \n
+                    1/2 onion, thinly sliced \n
+                    1 c. shredded carrot \n
+                    1/4 green cabbage, thinly sliced \n
+                    1/4 c. soy sauce \n
+                    1 tbsp. Sriracha \n
+                    Kosher salt \n
+                    1 green onion, thinly sliced \n
+                    1 tbsp. toasted sesame seeds</string>
+    <string name="dummy_direction"> 1. In a large skillet over medium heat, heat vegetable oil. Add garlic and ginger and cook until fragrant, 1 minute.\n\n
+
+                    2. Push pork to the side and add sesame oil. Add onion, carrot, and cabbage. Stir to combine with meat and add soy sauce and Sriracha. Cook until cabbage is tender, 5 to 8 minutes. Season to taste with salt.\n\n
+
+                    3. Transfer mixture to a serving dish and garnish with green onions and sesame seeds. Serve.</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="direction">Direction</string>
+    <string name="recipe">Recipe</string>
+    <string name="profile_name">Abraham Bulyan Zebua</string>
+    <string name="profile_email">181114028@students.mikroskil.ac.id</string>
+</resources>

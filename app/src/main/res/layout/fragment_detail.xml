@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.DetailFragment">
+
+    <include
+        android:id="@+id/inc_toolbar"
+        layout="@layout/toolbar_else"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inc_toolbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/img_creator"
+                style="@style/img_creator"
+                android:src="@drawable/lena_abraham"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_creator_name"
+                style="@style/creator_name"
+                android:text="@string/dummy_name_creator"
+                app:layout_constraintBottom_toBottomOf="@+id/img_creator"
+                app:layout_constraintStart_toEndOf="@+id/img_creator"
+                app:layout_constraintTop_toTopOf="@+id/img_creator" />
+
+            <ImageView
+                android:id="@+id/img_fav"
+                style="@style/ic_heart_size_medium"
+                android:src="@drawable/ic_favorite_false"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_creator_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tv_creator_name" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/img_food"
+                style="@style/img_food"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/food_img_size"
+                android:src="@drawable/egg_roll_bowls"
+                app:layout_constraintTop_toBottomOf="@+id/img_creator"
+                tools:layout_editor_absoluteX="20dp" />
+
+            <TextView
+                android:id="@+id/tv_food_name"
+                style="@style/title_text"
+                android:text="@string/dummy_name_food"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_food" />
+
+            <TextView
+                android:id="@+id/tv_story"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/dummy_story"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_food_name" />
+
+            <TextView
+                android:id="@+id/tv_title_ingredients"
+                style="@style/title_text"
+                android:text="@string/ingredients"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_story" />
+
+            <TextView
+                android:id="@+id/tv_ingredients"
+                style="@style/common_text"
+                android:text="@string/dummy_ingredients"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_title_ingredients" />
+
+
+            <TextView
+                android:id="@+id/tv_title_direction"
+                style="@style/title_text"
+                android:text="@string/direction"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_ingredients" />
+
+            <TextView
+                android:id="@+id/tv_direction"
+                style="@style/common_text"
+                android:text="@string/dummy_direction"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_title_direction" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

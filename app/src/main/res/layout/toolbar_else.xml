@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:id="@+id/img_back_toolbar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:translationX="-5.5dp"
+        android:scaleY="1.4"
+        android:scaleX="1.4"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_back"
+        android:scaleType="centerInside"
+
+        app:tint="@color/black" />
+
+
+</androidx.appcompat.widget.Toolbar>
