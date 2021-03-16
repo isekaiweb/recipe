@@ -31,25 +31,40 @@ class ProfileFragment : Fragment() {
 
         initNavController(view)
         initEventClick()
-
-        val srcImgProfile = "https://d17ivq9b7rppb3.cloudfront.net/small/avatar/202102240822175c7d208dcb2c122542720d48eff67631.png"
-        glide(requireContext(),srcImgProfile,binding.imgProfile)
+        initImgProfile()
     }
 
     private fun initEventClick() {
-        binding.incToolbar.imgBackToolbar.setOnClickListener {
-            navController.popBackStack()
+        binding.apply {
+            incToolbar.imgBackToolbar.setOnClickListener {
+                navController.popBackStack()
+            }
+
+            tvEmailProfile.setOnClickListener {
+                val intent = Intent(Intent.ACTION_SENDTO)
+                intent.data = Uri.parse("mailto: ${binding.tvEmailProfile.text}")
+                startActivity(intent)
+            }
         }
 
-        binding.tvEmailProfile.setOnClickListener {
-            val intent = Intent(Intent.ACTION_SENDTO)
-            intent.data = Uri.parse("mailto: ${binding.tvEmailProfile.text}")
-            startActivity(intent)
-        }
+
     }
 
     private fun initNavController(view: View) {
         navController = Navigation.findNavController(view)
     }
+
+
+    private fun initImgProfile() {
+        val src =
+            "https://d17ivq9b7rppb3.cloudfront.net/small/avatar/202102240822175c7d208dcb2c122542720d48eff67631.png"
+
+        glide(
+            requireContext(),
+            src,
+            binding.imgProfile
+        )
+    }
+
 
 }

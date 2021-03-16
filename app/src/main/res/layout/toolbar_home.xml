@@ -9,34 +9,35 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+
         <TextView
             android:id="@+id/textView"
             style="@style/title_text"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+
+            android:layout_marginBottom="5dp"
             android:text="@string/recipe"
             app:layout_constraintBottom_toBottomOf="parent"
-
-            app:layout_constraintEnd_toStartOf="@+id/img_ic_person"
+            app:layout_constraintEnd_toStartOf="@+id/img_person"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintTop_toTopOf="parent" />
 
-
-        <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/img_ic_person"
+        <ImageView
+            android:id="@+id/img_person"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginBottom="1dp"
             android:clickable="true"
             android:focusable="true"
             android:scaleType="fitCenter"
-            android:src="@drawable/ic_person"
-            app:layout_constraintBottom_toBottomOf="@+id/textView"
+            android:src="@mipmap/ic_person_round"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/textView"
-            app:shapeAppearanceOverlay="@style/circle" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.555"
+            android:contentDescription="@string/ic_person" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.appcompat.widget.Toolbar>

@@ -18,30 +18,42 @@ class FoodRecipeAdapter(
 
     private var recipes = listOf<FoodRecipe>()
 
-    fun setData(recipes: List<FoodRecipe>) {
-        this.recipes = recipes
+    fun setData(newRecipes: List<FoodRecipe>) {
+        recipes = newRecipes
         notifyDataSetChanged()
     }
 
     inner class RecipeViewHolder(private val binding: CardLayoutBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
-        fun bindView(recipes: FoodRecipe) {
+        fun bindView(recipe: FoodRecipe) {
             binding.apply {
-                glide(itemView.context, recipes.creatorPhoto, imgCreator)
-                glide(itemView.context, recipes.foodPhoto, imgFood)
-                tvCreatorName.text = recipes.creatorName
-                tvFoodName.text = recipes.foodName
-                tvStory.text = recipes.story
-                isFavorite(recipes.isFavorite, imgFav)
+                glide(itemView.context, recipe.creatorPhoto, imgCreator)
+                glide(itemView.context, recipe.foodPhoto, imgFood)
+                tvCreatorName.text = recipe.creatorName
+                tvFoodName.text = recipe.foodName
+                tvStory.text = recipe.story
+                isFavorite(recipe.isFavorite, imgFav)
+
+
+
                 cardRecipes.setOnClickListener {
                     Toast.makeText(itemView.context,"Open Detail ${tvFoodName.text}",Toast.LENGTH_SHORT).show()
-                    listener(recipes)
+                    listener(recipe)
                 }
 
+
+
+
                 imgFav.setOnClickListener {
-                    recipes.isFavorite = !recipes.isFavorite
-                    changeStateLikeRecipe(recipes.isFavorite,imgFav,recipes.foodName,itemView.context,recipes.id.toString())
+                    recipe.isFavorite = !recipe.isFavorite
+                    changeStateLikeRecipe(
+                        recipe.isFavorite,
+                        imgFav,
+                        recipe.foodName,
+                        itemView.context,
+                        recipe.id.toString()
+                    )
                 }
             }
 
@@ -49,6 +61,8 @@ class FoodRecipeAdapter(
 
 
     }
+
+
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecipeViewHolder =
         RecipeViewHolder(
