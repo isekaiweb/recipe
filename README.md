@@ -11,4 +11,4 @@ the theme app about food recipes, i got the recipe from [**Delish**](https://www
 
 You can see the demo [here]
 
-[here]: https://www.linkedin.com/posts/abraham-bulyan-zebua-110ab2140_firstapp-recipe-kotlin-ugcPost-6776210581365125120-gZc0
+[here]: https://www.linkedin.com/posts/abraham-bulyan-zebua_firstapp-recipe-kotlin-activity-6776210601996877824-qQGW?utm_source=share&utm_medium=member_desktop
